@@ -1,0 +1,107 @@
+.burger {
+    width: 15rem;
+    height: 17rem;
+    background-color: whitesmoke;
+    padding: 0rem 1rem 1rem 1rem;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+.burger__small {
+    width: 12rem;
+    height: 12rem;
+    margin: 1rem;
+    background-color: whitesmoke;
+    padding: 0rem 1rem 1rem 1rem;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+
+
+.burger img {
+    height: 8rem;
+    width: 8rem;
+    object-fit: contain;
+    margin-top: -1.5rem;
+    border-radius: 50%;
+}
+
+.burger__small img {
+    width: 5rem;
+    height: 5rem;
+    object-fit: contain;
+    margin-top: -1.5rem;
+    border-radius: 50%;
+}
+
+.burger__text {
+    text-align: center;
+}
+
+.burger__name {
+    font-size: 1.4rem;
+    text-align: center;
+}
+
+.burger__description {
+    font-size: 0.8rem;
+}
+
+.container__price {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.container__price button {
+    padding:0.3rem 0.7rem;
+    border: 1px solid red;
+    border-radius: 5px;
+    background-color: orange;
+    font-weight: bold;
+    font-size: 0.8rem;
+}
+
+.container__price p {
+    font-weight: bold;
+}
+
+@media (max-width: 900px) {
+    .burger {
+        width: 14rem;
+        height: 14rem;
+    }
+
+    .burger img {
+        height: 6rem;
+        width: 6rem;
+    }
+}
+
+@media (max-width: 560px) {
+
+    .burger {
+        width: 15rem;
+        height: 15rem;
+    }
+
+    .burger img {
+        height: 9rem;
+        width: 9rem;
+    }
+}
+
+/* @media (max-width: 400px) {
+    .burger {
+        width: 12rem;
+        height: 12rem;
+    }
+} */

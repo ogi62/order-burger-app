@@ -1,0 +1,16 @@
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    /* background-color: blue; */
+    /* height: 6rem; */
+    width: 100%;
+    padding: 1rem 0rem;
+}
+
+.footer p {
+    font-size: 1.2rem;
+    font-weight: 400;
+    letter-spacing: 1.2px;
+}

@@ -1,0 +1,17 @@
+.logo {
+    width: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 1rem;
+    cursor: pointer;
+    /* background-color: blue; */
+}
+
+.logo img {
+    width: 2rem;
+    object-fit: contain;
+}
+.logo span {
+    text-align: center;
+}
